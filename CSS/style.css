@@ -1,27 +1,15 @@
-.top-container
-{
-  background-color: #e4f9f5;
-  position: relative;
-  padding-top: 100px;
-}
-.middle-container
-{
-  margin: 100px auto;
-}
+/*---------------------------------TAGS----------------------------------------*/
+
 p
 {
+  font-family: 'Montserrat', serif;
   line-height: 2;
-}
-.bottom-container
-{
-   background-color: #66BFBF;
-   padding: 50px 0 20px;
+  font-weight: bold;
 }
 body
 {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
   color: #40514E;
 }
 h1
@@ -33,7 +21,7 @@ h1
 }
 h2
 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat',  serif;
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight:normal;
@@ -43,6 +31,41 @@ h3
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
+a
+{
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr
+{
+  border: dotted #DCDCDC 6px;
+  width:3%;
+  border-bottom: none;
+  margin:100px auto;
+}
+/*--------------------------------CLASSES-------------------------------------*/
+.top-container
+{
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container
+{
+  margin: 100px auto;
+}
+
+.bottom-container
+{
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+}
+
 .bottom-cloud
 {
   position: absolute;
@@ -56,16 +79,7 @@ h3
   top: 50px;
 
 }
-a
-{
-  color: #11999E;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-}
-a:hover{
-  color: #EAF6F6;
-}
+
 .skill-row
 {
   width: 50%;
@@ -108,13 +122,7 @@ a:hover{
 {
   margin: auto;
 }
-hr
-{
-  border: dotted #DCDCDC 6px;
-  width:3%;
-  border-bottom: none;
-  margin:100px auto;
-}
+
 .contact{
   margin-bottom: auto;
 }
@@ -124,25 +132,22 @@ hr
   font-size: 0.75rem;
   padding: 20px 0;
 }
+
 .btn {
-   background: #66BFBF;
-   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
-   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
-   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
-   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
-   background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-   height: 0;
-   line-height: 0;
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
    color: #FFFFFF;
-   font-family: sans-serif;
-   width: 151px;
-   font-size: 23px;
+   font-family: 'Montserrat', serif;
+   font-size: 20px;
    font-weight: 100;
-   padding: 26px;
-   border: solid #FFFFFF 1px;
+   padding: 11px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -150,21 +155,24 @@ hr
 }
 
 .btn:hover {
-   border: solid #FFFFFF 1px;
-   background: #11999E;
-   background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
-   background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
-   background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
-   background-image: -o-linear-gradient(top, #11999E, #66BFBF);
-   background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
+   border: solid #FFFFFF 0;
+   background: #2BC4AD;
+   background-image: -webkit-linear-gradient(top, #2BC4AD, #30E3CB);
+   background-image: -moz-linear-gradient(top, #2BC4AD, #30E3CB);
+   background-image: -ms-linear-gradient(top, #2BC4AD, #30E3CB);
+   background-image: -o-linear-gradient(top, #2BC4AD, #30E3CB);
+   background-image: -webkit-gradient(to bottom, #2BC4AD, #30E3CB);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
    text-decoration: none;
 }
+
 .contact-description
 {
   width: 40%;
   margin: 40px auto 60px;
 
 }
+
+/*----------------------------------ID'S--------------------------------------*/
